@@ -1,0 +1,11 @@
+Scanner sc = new Scanner(System.in);
+      String n = sc.next();
+      String d=n;
+      int k = sc.nextInt();
+      for(int i=0;i<k;i++)
+      n+=d;
+      long a = String.toInteger(n);
+      superdigit(a);
+	}
+  public static int superdigit(long a){
+    while
